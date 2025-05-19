@@ -25,6 +25,16 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <script>
+      // Force scroll to top on page load
+      window.onload = function() {
+        window.scrollTo(0, 0);
+      }
+      // Disable browser scroll restoration
+      if ('scrollRestoration' in history) {
+        history.scrollRestoration = 'manual';
+      }
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
