@@ -150,7 +150,7 @@ function About() {
               Hello!
             </p>
             <p>
-              PLACEHOLDER TEXT
+              I'm Ken and I'm a second year Computer Science and Finance (CFM) student at the University of Waterloo. I have a passion for software development, particularly in building AI. My interests also extend to finance, where I enjoy exploring the intersection of technology and financial markets.
             </p>
             <div className="social-icons">
               <h3>Connect With Me</h3>
